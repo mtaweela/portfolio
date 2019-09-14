@@ -1,0 +1,152 @@
+/* Small Mobile devices (less than 470px) */
+@media (max-width: 469.98px) {
+	#about .btn.mr-3{
+		margin-bottom: 15px
+	}
+	.about-details ul li span{
+		width: 70px
+	}
+	.client{
+		margin-left: 15px;
+	}
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.s-mt-15 {
+		margin-top: 15px
+	}
+	.s-p-0{
+		padding: 0
+	}
+	.banner-content p{
+		font-size: 16px;
+		line-height: 28px
+	}
+	.banner-title {
+		font-size: 21px !important
+	}
+	.owl-nav{
+		display: none;
+	}
+	.comment-avater {
+		float: none;
+		margin-bottom: 20px
+	}
+	.comment-text{
+		padding-left: 0px
+	}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.banner-content p{
+		width: 95% !important
+	}
+	.filters ul li {
+		padding: 3px 18px;
+	}
+	.user-title{
+		padding-right: 0px;
+		float: none !important;
+	}
+	.comment-text span{
+		display: table
+	}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	.r-mt-30 {
+		margin-top: 30px
+	}
+	h2{
+		font-size: 26px !important;
+		line-height: 36px
+	}
+	h3{
+		font-size: 21px !important;
+		line-height: 32px
+	}
+	h4{
+		font-size: 18px !important;
+		line-height: 28px
+	}
+	h5{
+		font-size: 16px !important;
+		line-height: 26px
+	}
+	.navbar-nav{
+		margin-top: 15px;
+		padding-top: 15px;
+		border-top: 1px solid #e8e8e8
+	}
+	.navbar-nav li{
+		margin-bottom: 5px
+	}
+	.banner-content p{
+		width: 66%;
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.main-banner{
+		height: 500px !important
+	}
+	.about-details{
+		margin-top: 50px
+	}
+	.main-nav, 
+	.nav-scroll{
+		position: static;
+		transform: inherit;
+	}
+	.banner-title{
+		font-size: 24px;
+		line-height: 36px;
+		margin: 5px 0 !important
+	}
+	.banner-content .btn{
+		margin-top: 15px !important
+	}
+	.overlay-one:before{
+		width: 100%
+	}
+	.personal-video{
+		display: none
+	}
+	.socal-media{
+		float: none !important
+	}
+	.filters ul li{
+		margin: 0 5px 5px 0 !important;
+	}
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+	.main-banner{
+		height: 90vh
+	}
+	.achivement h5{
+		font-size: 16px
+	}
+	.round{
+		margin-right: 15px;
+		font-size: 18px
+	}
+	.project-zoom{
+		width: 100px;
+		height: 100px;
+		margin: -50px;
+	}
+	.project-zoom:after{
+		font-size: 32px;
+	}
+	.socal-media ul li a{
+		width: 38px;
+		height: 38px;
+		line-height: 36px;
+	}
+}
+
+/* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */

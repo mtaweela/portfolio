@@ -1,0 +1,691 @@
+/**
+    
+* Template Name: Potato - Personal Portfolio Template
+* Version: 1.0
+* Author: Themetrading
+* Email: themetrading@gmail.com
+* Developed By: Themetrading
+* First Release: 20 August, 2019
+* Author URL: www.themetrading.com
+
+**/
+/*==============================================================
+Table of CSS Content Arrage With Every Section Name
+================================================================
+01. Default Css
+02. Main Title and inner title
+03. Background Image
+04. Overlay
+05. Default Margin and Padding
+06. Main Nav
+07. Main Banner
+08. About
+09. Service
+10. Achivement
+11. Portfolio Section
+12. Testimonial
+13. Blog
+14. Contact
+15. Contact info
+16. Copyright
+17. Blog Details
+================================================================*/
+/*	01.	Default Css
+===========================================*/
+body{
+	font-size: 16px;
+	line-height: 28px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+h1{
+	font-size: 42px;
+	line-height: 56px;
+	font-weight: 800;
+}
+h2{
+	font-size: 32px;
+	line-height: 44px;
+	font-weight: 800;
+}
+h3{
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 800;
+}
+h4{
+	font-size: 21px;
+	line-height: 32px;
+	font-weight: 800;
+}
+h5{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 700;
+}
+h6{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a, a:hover, a:focus{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none !important;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.letter-spacing-1{
+    letter-spacing: 1px;
+}
+.btn,
+.btn:hover,
+.btn:focus,
+button:focus{
+    box-shadow: none !important;
+    outline: none;
+}
+img {
+    width: 100%
+}
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	padding: 12px 40px;
+	border-radius: 30px;
+	font-size: 16px;
+	border-width: 2px;
+	border-style: solid;
+	letter-spacing: 1px;
+	background-color: transparent;
+}
+.btn-link{
+    font-style: italic;
+}
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before{
+	margin-left: 0px !important; 
+}
+.flat-font-40 i:before,
+.flat-font-40 i:before {
+    font-size: 40px;
+    line-height: 40px;
+}
+/* 02. Main Title and inner title
+===========================================*/
+.line:before,
+.line:after{
+	content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    top: 50%;
+}
+.line:before{
+    left: 0;
+}
+.line:after{
+	right: 0;
+}
+/* 03.	Background Image
+===========================================*/
+.banner-image{
+	background-image: url(../images/banner.png);
+}
+.background-1{
+    background-image: url(../images/dot.png);
+}
+.background-2{
+    background: linear-gradient(rgba(21,21,21,.2), rgba(21,21,21,.2)),url(../images/testimonial.jpg) no-repeat center / cover;
+}
+
+/* 04.  Overlay
+===========================================*/
+.overlay-one{
+    position: relative;
+}
+.overlay-one:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+}
+
+/* 05.  Default Margin and Padding
+===========================================*/
+.py-80{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.pt-60, 
+.py-60{
+	padding-top: 60px;
+}
+.pb-60, 
+.py-60{
+	padding-bottom: 60px;
+}
+.pt-50,
+.py-50{
+	padding-top: 50px;
+}
+.pb-50,
+.py-50{
+	padding-bottom: 50px;
+}
+.p-30{
+    padding: 30px;
+}
+.pl-30,
+.px-30{
+	padding-left: 30px;
+}
+.pr-30,
+.px-30{
+	padding-right: 30px;
+}
+.pt-30,
+.py-30{
+    padding-top: 30px;
+}
+.pb-30,
+.py-30{
+	padding-bottom: 30px;
+}
+.pt-15,
+.py-15{
+    padding-top: 15px;
+}
+.pb-15,
+.py-15{
+    padding-bottom: 15px;
+}
+.pr-15{
+    padding-right: 15px;
+}
+.mt-50,
+.my-50{
+    margin-top: 50px;
+}
+.mb-50,
+.my-50{
+    margin-bottom: 50px;
+}
+.mt-30,
+.my-30{
+	margin-top: 30px;
+}
+.mb-30,
+.my-30{
+	margin-bottom: 30px;
+}
+.ml-30,
+.mx-30{
+    margin-left: 30px;
+}
+.mr-30,
+.mx-30{
+    margin-right: 30px;
+}
+.mt-20,
+.my-20{
+	margin-top: 20px;
+}
+.mb-20,
+.my-20{
+    margin-bottom: 20px;
+}
+.mt-15,
+.my-15{
+	margin-top: 15px;
+}
+.mb-15,
+.my-15{
+	margin-bottom: 15px;
+}
+
+/* 06.	Main Nav
+===========================================*/
+.main-nav{
+	width: 100%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    padding: 15px 0;
+    z-index: 1;
+}
+.nav-scroll{
+    left: 0;
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 2px 15px;
+    display: inline-block;
+}
+.navbar-light .navbar-nav .nav-link:before{
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    left: 0;
+    top: 0;
+    border: 2px solid;
+    opacity: 0;
+}
+.navbar-light .navbar-nav .nav-link:after{
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    right: 0;
+    bottom: 0;
+    border: 2px solid;
+    opacity: 0;
+}
+.navbar-light .navbar-nav .nav-link.active:before,
+.navbar-light .navbar-nav .nav-link.active:after{
+    opacity: 1;
+}
+/* 07.	Main Banner
+=============================================*/
+.main-banner{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+.banner-content p{
+	width: 70%;
+    font-size: 20px;
+    line-height: 32px;
+}
+/* 08.	About
+==============================================*/
+.about-details ul li{
+    padding: 5px 0px;
+    border-bottom: 1px solid;
+}
+.about-details ul li span{
+    width: 80px;
+    display: inline-block;
+}
+/* 09. Service
+================================================*/
+.icon-animation{
+    position: relative;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 1px solid;
+    font-size: 50px;
+    background: transparent;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: auto;
+}
+.service-item .icon-animation .dot-round{
+    width: 100%;
+    height: 100%;
+    left: 56%;
+    top: 8%;
+}
+.icon-animation i{
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+.dots{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    left: 15px;
+    top: 0;
+    position: relative;
+}
+/* 10.  Achivement
+========================================*/
+.achivement{
+    padding: 10px;
+    border-radius: 50px;
+}
+.round{
+	width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+    font-size: 18px;
+    font-weight: 700
+}
+.count-num{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 700;
+    margin: 0;
+}
+.achivement h5{
+    line-height: 60px;
+    margin-bottom: 0px; 
+    letter-spacing: 1px;
+}
+/* 11. Portfolio Section
+=======================================*/
+figure {
+    margin: 0;
+}
+.controls .control{
+	padding: 7px 30px;
+    cursor: pointer;
+    font-weight: 500;
+    display: table;
+    float: left;
+    margin: 0 5px 0 0;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    border: 2px solid;
+    font-family: 'Montserrat', sans-serif;
+}
+.project{
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.project figure:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.project img{
+    display: block;
+    width: 100%;
+}
+.project figcaption{
+    bottom: 0;
+    left: 0;
+    margin: 40px 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.project-title{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    line-height: 28px;
+}
+.project-category{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    letter-spacing: 7px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0 0;
+}
+.project-zoom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: -72px;
+    opacity: 0;
+    overflow: hidden;
+}
+.project-zoom:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: FontAwesome;
+    font-size: 40px;
+}
+.project figure:hover .project-title{
+    opacity: 0;
+    top: 30px;
+}
+.project figure:hover .project-category{
+    letter-spacing: 32px;
+    opacity: 0;
+}
+.project figure:hover .project-zoom{
+    opacity: 1;
+}
+.project figure:hover:after{
+    opacity: 0;
+}
+\/* 2 Columns */
+
+.mix,
+.gap {
+    width: calc(100%/2 - (((2 - 1) * 1rem) / 2));
+}
+
+/* 3 Columns */
+
+@media screen and (min-width: 541px) {
+    .mix,
+    .gap {
+        width: calc(100%/3 - (((3 - 1) * 1rem) / 3));
+    }
+}
+
+/* 4 Columns */
+
+@media screen and (min-width: 961px) {
+    .mix,
+    .gap {
+        width: calc(100%/4 - (((4 - 1) * 1rem) / 4));
+    }
+}
+
+/* 5 Columns */
+
+@media screen and (min-width: 1281px) {
+    .mix,
+    .gap {
+        width: calc(100%/5 - (((5 - 1) * 1rem) / 5));
+    }
+}
+/* 12.  Testimonial
+==========================================*/
+.client-info img{
+    width: 100px !important;
+    height: 100px;
+    border-radius: 100%;
+    float: left;
+    border: 5px solid;
+}
+.client-info .client-name{
+    margin-bottom: 0px;
+}
+.owl-carousel .owl-nav.disabled{
+    display: block !important;
+}
+.owl-nav{
+    position: absolute;
+    bottom: 35px;
+    right: 15px;
+}
+.owl-nav button{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 100%;
+}
+.owl-nav button i{
+    font-size: 18px;
+    line-height: 40px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    margin-right: 10px;
+}
+.owl-nav button.owl-prev:focus,
+.owl-nav button.owl-next:focus{
+    outline: none;
+}
+/* 13.  Blog
+=========================================*/
+.blog-item{
+    border-bottom: 2px solid;
+}
+.blog-item .text-area{
+    border-bottom: 1px solid;
+}
+.tag a, 
+.client i,
+.date-comment{
+	font-size: 16px;
+    line-height: 26px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+/* 14.  Contact
+========================================*/
+.form-control{
+    background: none;
+    font-size: 13px;
+    line-height: 36px;
+    height: auto;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+/* 15.  Contact info
+==========================================*/
+.socal-media{
+    margin-top: 12px;
+}
+.contact-info span{
+    font-weight: 600;
+}
+.socal-media ul li{
+    float: left;
+    margin-right: 5px;
+}
+.socal-media ul li:last-child{
+    margin-right: 0px;
+}
+.socal-media ul li a{
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 44px;
+    display: block;
+    border: 2px solid;
+    border-radius: 30px;
+}
+/* 16.  Copyright
+==========================================*/
+.Copyright a{
+	font-family: 'Open Sans', sans-serif
+}
+
+#scroll{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    display: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    z-index: 9999;
+}
+#scroll span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+}
+/* 17. Blog Details
+==========================================*/
+.banner{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.breadcrumb{
+    background-color: transparent;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    padding: 15px 0 0 0;
+}
+.breadcrumb li{
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    padding: 0px 5px;
+    font-weight: 500;
+}
+.blockquote{
+    font-size: 21px;
+    line-height: 32px;
+}
+.text-area .tag{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 3px 0px;
+}
+.comment{
+    border-bottom: 1px solid;
+}
+.comment-text span{
+    font-size: 14px;
+}
+.comment-avater{
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 100%;
+	border: 5px solid;
+}

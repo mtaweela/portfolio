@@ -1,0 +1,184 @@
+/*	color
+--------------------*/
+.color-primary, .color-primary-a a{
+	color: #00C07C;
+}
+.color-black, .color-black-a a{
+	color: #151515;
+}
+.color-gray, .color-gray-a a{
+	color: #6c757d;
+}
+.color-lightgray, .color-lightgray-a a{
+	color: #f8f8f8;
+}
+.color-deepgray, .color-deepgray a{
+	color: #5e5e5e;
+}
+.color-white, .color-white-a a{
+	color: #fff;
+}
+/*	Background color 
+------------------------*/
+.bg-lightgray{
+	background-color: #f8f8f8;
+}
+.bg-white{
+	background-color: #fff;
+}
+.bg-gradient,
+.nav-scroll,
+.project-zoom,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.personal-video a, .ball-scale-multiple > div,
+#scroll{
+	background-image: linear-gradient(to right, #22eea7 0%, #2ccfe2 100%) !important;
+}
+
+.blog-item{
+	border-image: linear-gradient(to right, #22eea7 0%, #2ccfe2 100%) 1;
+}
+/*	Button color
+------------------------*/
+.btn-primary{
+	background-color: #00C07C;
+	color: #fff;
+	border-color: #00C07C;
+}
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled):active{
+	background-color: #fff;
+	color: #00C07C;
+	border-color: #00C07C;
+}
+.navbar-light .navbar-nav .nav-link:before{
+    border-color: #151515 transparent transparent #151515;
+}
+.navbar-light .navbar-nav .nav-link:after{
+    border-color: transparent #151515 #151515 transparent;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #151515
+}
+
+.main-nav.nav-scroll .navbar-light .navbar-nav .nav-link.active,
+.main-nav.nav-scroll .navbar-light .navbar-nav .nav-link:hover{
+	color: #fff;
+}
+.main-nav.nav-scroll .navbar-light .navbar-nav .nav-link:before{
+    border-color: #fff transparent transparent #fff !important;
+}
+.main-nav.nav-scroll .navbar-light .navbar-nav .nav-link:after{
+    border-color: transparent #fff #fff transparent !important;
+}
+/*	All color
+-----------------------*/
+/* All Primary color
+----------------------------*/
+.icon-animation,
+.controls .control.mixitup-control-active,
+.controls .control:hover,
+.blog-title:hover,
+.date-comment,
+.client i,
+.socal-media ul li a:hover,
+.btn-link{
+	color: #00C07C;
+}
+.line:before,
+.line:after,
+.dots,
+.controls .control,
+.socal-media ul li a{
+	background-color: #00C07C !important;
+}
+.icon-animation,
+.socal-media ul li a,
+.socal-media ul li a:hover{
+	border-color: #00C07C;
+}
+/*	All Black color
+----------------------------*/
+.navbar-light .navbar-nav .nav-link,
+.about-details ul li span,
+.blog-title,
+.navbar-light .navbar-toggler,
+.breadcrumb li a,
+.tag a:hover,
+.btn-link:hover{
+	color: #151515;
+}
+.project figure:after{
+	background-color: #151515;
+}
+/*	All body color 
+---------------------------*/
+body{
+	color: #6c757d;
+}
+/* All White color
+---------------------------*/
+.project-zoom,
+.project-title,
+.project-category,
+.controls .control,
+.owl-nav button i,
+.personal-video a,
+.socal-media ul li a,
+.Copyright a:hover,
+.breadcrumb li a:hover{
+	color: #fff;
+}
+.overlay-one:before,
+.navbar-light .navbar-toggler{
+	background-color: #fff;
+}
+#scroll span{
+	border-bottom-color: #fff;
+}
+
+/*	Border color
+---------------------------*/
+.controls .control,
+.controls .control.mixitup-control-active,
+.controls .control:hover{
+	border-color: #00C07C;
+}
+.controls .control.mixitup-control-active,
+.controls .control:hover,
+.socal-media ul li a:hover{
+	background-color: transparent !important;
+}
+.form-control:focus{
+	border-color: #818181;
+}
+.navbar-light .navbar-toggler{
+	border-color: #515151;
+}
+.about-details ul li,
+.client-info img,
+.comment-avater,
+.blog-item .text-area,
+.text-area .tag,
+.comment{
+	border-color: #f0f0f0;
+}
+.service-item,
+.blog-item,
+.blog-details{
+	-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.10);
+	-moz-box-shadow: 1px 2px 5px rgba(0,0,0,.10);
+	-ms-box-shadow: 1px 2px 5px rgba(0,0,0,.10);
+	-o-box-shadow: 1px 2px 5px rgba(0,0,0,.10);
+	box-shadow: 1px 2px 5px rgba(0,0,0,.10);
+}
+
+@media (max-width: 991.98px) {
+	.main-nav {
+		background-image: linear-gradient(to right, #22eea7 0%, #2ccfe2 100%) !important;
+	}
+}
+
